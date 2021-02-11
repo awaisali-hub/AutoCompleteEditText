@@ -49,6 +49,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Toast.makeText(this, "Testing", Toast.LENGTH_SHORT).show();
+
         final String[] from = new String[] {"fishName"};
         final int[] to = new int[] {android.R.id.text1};
 
